@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get install -y
 cd /tmp
 git clone https://github.com/openfaas/faasd --depth=1 #install faasd
