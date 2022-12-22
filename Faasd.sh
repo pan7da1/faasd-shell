@@ -6,6 +6,6 @@ cd faasd
 
 ./hack/install.sh
 
-sudo cat /var/lib/faasd/secrets/basic-auth-password #password for faas gateway-panel
-echo
+
 curl -sSL https://cli.openfaas.com | sudo sh #intall faas-cli
+sudo cat /var/lib/faasd/secrets/basic-auth-password #password for faas gateway-panel
